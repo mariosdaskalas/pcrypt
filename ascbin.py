@@ -9,8 +9,8 @@ def ascbin_function():
         print("Give the text you want to convert...")
 
         txt = input()
-        bin_decimal = ' '.join(format(ord(i), 'b') for i in txt)
-        print("Result: " + bin_decimal)
+        txt_bin = ' '.join(format(ord(i), 'b') for i in txt)
+        print("Result: " + txt_bin)
 
     if (binary_input == "binary"):
         print("Give the binary you want to convert...")
